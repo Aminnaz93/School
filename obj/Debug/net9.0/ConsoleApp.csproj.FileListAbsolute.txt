@@ -1,0 +1,14 @@
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/bin/Debug/net9.0/ConsoleApp
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/bin/Debug/net9.0/ConsoleApp.deps.json
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/bin/Debug/net9.0/ConsoleApp.runtimeconfig.json
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/bin/Debug/net9.0/ConsoleApp.dll
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/bin/Debug/net9.0/ConsoleApp.pdb
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/obj/Debug/net9.0/ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/obj/Debug/net9.0/ConsoleApp.AssemblyInfoInputs.cache
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/obj/Debug/net9.0/ConsoleApp.AssemblyInfo.cs
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/obj/Debug/net9.0/ConsoleApp.csproj.CoreCompileInputs.cache
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/obj/Debug/net9.0/ConsoleApp.dll
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/obj/Debug/net9.0/refint/ConsoleApp.dll
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/obj/Debug/net9.0/ConsoleApp.pdb
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/obj/Debug/net9.0/ConsoleApp.genruntimeconfig.cache
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/obj/Debug/net9.0/ref/ConsoleApp.dll
