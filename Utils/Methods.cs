@@ -11,9 +11,19 @@ namespace Utils
         }
 
 
-        
+        public static int add(int a, int b)
+        {
+            return a + b;
+        }
 
 
+        public static void myLoop()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+        }
 
 
 

@@ -5,7 +5,7 @@ using Utils;
 
 
 
-Methods.Greeting();
+
 
 
 Console.WriteLine("hello motherfucker");
@@ -31,4 +31,6 @@ foreach (Book book in Library)
 }
 
 
-sayHello();
+
+Methods.Greeting();
+Methods.myLoop();
