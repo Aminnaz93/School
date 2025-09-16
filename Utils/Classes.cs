@@ -38,10 +38,5 @@ namespace Classes
         {
             Console.WriteLine($"Titeln på boken är {Titel}, Författaren är {Författare} och boken har {AntalSidor} sidor.");
         }
-
-        public override string ToString()
-        {
-            return $"Titeln: {Titel}, Författare: {Författare}, Antal sidor: {AntalSidor}";
-        }
     }
 }
