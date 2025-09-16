@@ -12,3 +12,4 @@
 /Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/obj/Debug/net9.0/ConsoleApp.pdb
 /Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/obj/Debug/net9.0/ConsoleApp.genruntimeconfig.cache
 /Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/obj/Debug/net9.0/ref/ConsoleApp.dll
+/Users/aminnazari/Documents/Programming/C#/School projects/ConsoleApp/obj/Debug/net9.0/ConsoleApp.sourcelink.json

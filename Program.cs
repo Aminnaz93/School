@@ -1,4 +1,15 @@
-﻿Console.WriteLine("Hello World!");
+﻿using System;
+using Classes;
+using Utils;
 
 
-Console.WriteLine("Hello World");
+Utils.Methods.Greeting();
+
+
+Console.WriteLine("hello motherfucker");
+
+
+Student Amin = new Student("Amin", 32, "Programmering");
+
+
+Console.WriteLine(Amin.DisplayInfo());
