@@ -32,5 +32,10 @@ foreach (Book book in Library)
 
 
 
-Methods.Greeting();
-Methods.myLoop();
+Student Gurra = new Student("Gustav", 24, "Programmering");
+
+
+
+Console.WriteLine($"Gurras age is {Gurra.Age}");
+
+
