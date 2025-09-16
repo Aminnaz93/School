@@ -3,6 +3,8 @@ using Classes;
 using Utils;
 
 
+
+
 Methods.Greeting();
 
 
@@ -27,3 +29,6 @@ foreach (Book book in Library)
 {
     Console.WriteLine($"\nTitel: {book.Titel}, Författare: {book.Författare}, Antal sidor: {book.AntalSidor}");
 }
+
+
+sayHello();
