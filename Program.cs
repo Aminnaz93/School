@@ -54,12 +54,12 @@ using Utils;
         
 
 
-        Console.Write("Ange ett heltal: ");
-        int number = Convert.ToInt32(Console.ReadLine());
+        // Console.Write("Ange ett heltal: ");
+        // int number = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine($"Multiplikationstabellen för {number}:");
-        for (int i = 1; i <= 10; i++)
-        {
-            Console.WriteLine($"{number} x {i} = {number * i}");
-        }
+        // Console.WriteLine($"Multiplikationstabellen för {number}:");
+        // for (int i = 1; i <= 10; i++)
+        // {
+        //     Console.WriteLine($"{number} x {i} = {number * i}");
+        // }
 
