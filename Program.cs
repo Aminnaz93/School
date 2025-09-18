@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 using Classes;
 using Utils;
 
@@ -39,46 +40,89 @@ using Utils;
 
 
 
-        // int sum = 0;
-        // int number;
+// int sum = 0;
+// int number;
 
-        // Console.WriteLine("Skriv in heltal (0 för att avsluta):");
+// Console.WriteLine("Skriv in heltal (0 för att avsluta):");
 
-        // do
-        // {
-        //     number = Convert.ToInt32(Console.ReadLine());
-        //     sum += number;
-        // } while (number != 0);
+// do
+// {
+//     number = Convert.ToInt32(Console.ReadLine());
+//     sum += number;
+// } while (number != 0);
 
-        // Console.WriteLine($"Summan är: {sum}");
-        
-
-
-        // Console.Write("Ange ett heltal: ");
-        // int number = Convert.ToInt32(Console.ReadLine());
-
-        // Console.WriteLine($"Multiplikationstabellen för {number}:");
-        // for (int i = 1; i <= 10; i++)
-        // {
-        //     Console.WriteLine($"{number} x {i} = {number * i}");
-        // }
+// Console.WriteLine($"Summan är: {sum}");
 
 
 
+// Console.Write("Ange ett heltal: ");
+// int number = Convert.ToInt32(Console.ReadLine());
 
-        List<int> numbers = new List<int> { 1, 2, 3, 2, 4, 2, 5 };
-        
-        Console.Write("Ange ett tal att räkna: ");
-        int search = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine($"Multiplikationstabellen för {number}:");
+// for (int i = 1; i <= 10; i++)
+// {
+//     Console.WriteLine($"{number} x {i} = {number * i}");
+// }
 
-        int count = 0;
-        foreach (int n in numbers)
-        {
-            if (n == search)
-                count++;
-        }
 
-        Console.WriteLine($"{search} förekommer {count} gånger i listan.");
 
-        
 
+// List<int> numbers = new List<int> { 1, 2, 3, 2, 4, 2, 5 };
+
+// Console.Write("Ange ett tal att räkna: ");
+// int search = Convert.ToInt32(Console.ReadLine());
+
+// int count = 0;
+// foreach (int n in numbers)
+// {
+//     if (n == search)
+//         count++;
+// }
+
+// Console.WriteLine($"{search} förekommer {count} gånger i listan.");
+
+
+
+//         Console.Write("Ange ett lösenord: ");
+//         string password = Console.ReadLine();
+
+//         if (CheckLength(password) && CheckUpper(password) && CheckSpecial(password))
+//         {
+//             Console.WriteLine("Lösenordet är giltigt!");
+//         }
+//         else
+//         {
+//             Console.WriteLine("Lösenordet är ogiltigt!");
+//         }
+
+
+//     static bool CheckLength(string pw) => pw.Length >= 8;
+
+//     static bool CheckUpper(string pw)
+//     {
+//         foreach (char c in pw)
+//         {
+//             if (char.IsUpper(c)) return true;
+//         }
+//         return false;
+//     }
+
+//     static bool CheckSpecial(string pw)
+// {
+//     string specialCharacters = "!@#$%^&*()-_=+[{]};:'\"|\\,<.>/?";
+//     foreach (char c in pw)
+//     {
+//         if (specialCharacters.Contains(c)) return true;
+//     }
+//     return false;
+// }
+
+string name = "Amin";
+int age = 32;
+int salary = 10000000;
+
+Employee Amin = new Employee(name,age,salary);
+
+
+
+Amin.DisplayInfo();
