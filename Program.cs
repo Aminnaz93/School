@@ -126,3 +126,11 @@ Employee Amin = new Employee(name,age,salary);
 
 
 Amin.DisplayInfo();
+
+
+int sum = MathHelper.add(2, 4);
+
+
+Console.WriteLine(sum);
+
+

@@ -139,9 +139,16 @@ namespace Classes
             }
 
         }
+
+        public void PrintMovieInfo()
+        {
+            Console.WriteLine($"Title: {Title}.");
+            Console.WriteLine($"Director: {Director}");
+            Console.WriteLine($"Rating: {rating}");
+        }
         
 
-        
+
 
 
     }
