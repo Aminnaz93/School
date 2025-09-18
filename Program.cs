@@ -63,3 +63,22 @@ using Utils;
         //     Console.WriteLine($"{number} x {i} = {number * i}");
         // }
 
+
+
+
+        List<int> numbers = new List<int> { 1, 2, 3, 2, 4, 2, 5 };
+        
+        Console.Write("Ange ett tal att räkna: ");
+        int search = Convert.ToInt32(Console.ReadLine());
+
+        int count = 0;
+        foreach (int n in numbers)
+        {
+            if (n == search)
+                count++;
+        }
+
+        Console.WriteLine($"{search} förekommer {count} gånger i listan.");
+
+        
+
