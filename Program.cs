@@ -129,8 +129,10 @@ Amin.DisplayInfo();
 
 
 int sum = MathHelper.add(2, 4);
+int sum2 = MathHelper.sub(2, 4);
 
 
 Console.WriteLine(sum);
+Console.WriteLine(sum2);
 
 
