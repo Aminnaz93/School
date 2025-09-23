@@ -136,6 +136,18 @@ using Utils;
 // Console.WriteLine(sum);
 // Console.WriteLine(sum2);
 
-Level mediumLevel = Level.Medium;
+// Level mediumLevel = Level.Medium;
+// Level HighLevel = (Level)1;
 
-Console.WriteLine((int)mediumLevel);
+// Console.WriteLine((int)mediumLevel);
+// Console.WriteLine(HighLevel);
+
+
+TrafficControl controlStop = new TrafficControl(TraficLight.Red);
+TrafficControl controlSlowDown = new TrafficControl(TraficLight.Yellow);
+TrafficControl controlGo = new TrafficControl(TraficLight.Green);
+
+controlStop.ShowLightAction();
+controlSlowDown.ShowLightAction();
+controlGo.ShowLightAction();
+

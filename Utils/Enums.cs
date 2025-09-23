@@ -1,9 +1,17 @@
 namespace Enums
 {
-    public enum Level{
+    public enum Level
+    {
         Low,
-        Medium, 
+        Medium,
         High
     }
 
+
+    public enum TraficLight
+    {
+        Red,
+        Yellow,
+        Green
+    }
 }

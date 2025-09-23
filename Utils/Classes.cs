@@ -1,5 +1,6 @@
 using System;
 using System.Dynamic;
+using Enums;
 
 namespace Classes
 {
@@ -146,10 +147,39 @@ namespace Classes
             Console.WriteLine($"Director: {Director}");
             Console.WriteLine($"Rating: {rating}");
         }
-        
+
+    }
 
 
 
 
+    public class TrafficControl
+    {
+
+        public TraficLight CurrentLight { get; set; }
+
+
+        public TrafficControl(TraficLight startLight)
+        {
+            CurrentLight = startLight;
+        }
+
+
+        public void ShowLightAction()
+        {
+            switch (CurrentLight)
+            {
+                case TraficLight.Red:
+                    Console.WriteLine("Stop");
+                    break;
+                case TraficLight.Yellow:
+                    Console.WriteLine("Slow down");
+                    break;
+                case TraficLight.Green:
+                    Console.WriteLine("Go");
+                    break;
+            }
+
+        }
     }
 }
