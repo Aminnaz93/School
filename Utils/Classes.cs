@@ -182,4 +182,23 @@ namespace Classes
 
         }
     }
+
+
+
+    public class Meeting
+    {
+
+        public Weekdays DayOfTheWeek { get; set; }
+
+        public void PrintMeetingDay()
+        {
+            Console.WriteLine($"The meeting is scheduled on: {DayOfTheWeek}");
+        }
+
+
+    }
+
+
+
+
 }

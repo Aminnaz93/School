@@ -151,3 +151,8 @@ controlStop.ShowLightAction();
 controlSlowDown.ShowLightAction();
 controlGo.ShowLightAction();
 
+Meeting WhatDayMeeting = new Meeting();
+
+WhatDayMeeting.DayOfTheWeek = Weekdays.Saturday; 
+
+WhatDayMeeting.PrintMeetingDay();

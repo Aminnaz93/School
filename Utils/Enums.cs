@@ -14,4 +14,16 @@ namespace Enums
         Yellow,
         Green
     }
+
+
+    public enum Weekdays
+    {
+        Monday,
+        Tuesday,
+        Wednsday,
+        Thursday,
+        Friday,
+        Saturday,
+        Sunday
+    }
 }
