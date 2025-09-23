@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography;
 using Classes;
+using Enums;
 using Utils;
 
 
@@ -117,22 +118,24 @@ using Utils;
 //     return false;
 // }
 
-string name = "Amin";
-int age = 32;
-int salary = 10000000;
+// string name = "Amin";
+// int age = 32;
+// int salary = 10000000;
 
-Employee Amin = new Employee(name,age,salary);
-
-
-
-Amin.DisplayInfo();
+// Employee Amin = new Employee(name,age,salary);
 
 
-int sum = MathHelper.add(2, 4);
-int sum2 = MathHelper.sub(2, 4);
+
+// Amin.DisplayInfo();
 
 
-Console.WriteLine(sum);
-Console.WriteLine(sum2);
+// int sum = MathHelper.add(2, 4);
+// int sum2 = MathHelper.sub(2, 4);
 
 
+// Console.WriteLine(sum);
+// Console.WriteLine(sum2);
+
+Level mediumLevel = Level.Medium;
+
+Console.WriteLine((int)mediumLevel);
