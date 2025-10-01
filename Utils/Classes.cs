@@ -201,4 +201,122 @@ namespace Classes
 
 
 
+
+    public class BankAccount
+    {
+        // Egenskaper
+        public string AccountNumber { get; set; }
+        public string AccountHolder { get; set; }
+        public decimal Balance { get; private set; }
+
+        // Konstruktor
+        public BankAccount(string accountNumber, string accountHolder, decimal balance)
+        {
+            AccountNumber = accountNumber;
+            AccountHolder = accountHolder;
+            Balance = balance;
+        }
+
+        // Metod för insättning
+        public void Deposit(decimal amount)
+        {
+            Balance += amount;
+            Console.WriteLine($"Deposited: {amount}, New Balance: {Balance}");
+        }
+
+        // Metod för uttag
+        public void Withdraw(decimal amount)
+        {
+            if (Balance >= amount)
+            {
+                Balance -= amount;
+                Console.WriteLine($"Withdrew: {amount}, New Balance: {Balance}");
+            }
+            else
+            {
+                Console.WriteLine("Insufficient funds. Withdrawal denied.");
+            }
+        }
+
+        // Metod för att visa saldo
+        public void DisplayBalance()
+        {
+            Console.WriteLine($"Balance: {Balance}");
+        }
+    }
+
+
+
+    public class Product
+    {
+
+        public string Name { get; set; }
+
+        public double Price { get; set; }
+
+        public Product(string Name, double Price)
+        {
+            this.Name = Name;
+            this.Price = Price;
+        }
+
+        public Product()
+        {
+
+        }
+    }
+
+
+    public class CartItem
+    {
+        public Product Product { get; set; }
+
+        public double Quantity { get; set; }
+
+
+        public CartItem(Product Product, double Quantity)
+        {
+            this.Product = Product;
+            this.Quantity = Quantity;
+        }
+
+
+        public double Sum()
+        {
+
+            return Quantity * Product.Price;
+        }
+
+    }
+
+
+
+    public class ShoppingCart
+    {
+        public List<CartItem> Items;
+
+        public ShoppingCart()
+        {
+            Items = new List<CartItem>();
+        }
+
+
+        public void AddProduct(Product product, int Quantity)
+        {
+
+            CartItem existingItem = null;
+
+            foreach (CartItem item in Items)
+            {
+                if (item.Product.Name == product.Name)
+                {
+                    Console.WriteLine
+                }
+            }
+
+        }
+        
+
+    }
+
 }
