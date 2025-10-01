@@ -143,16 +143,20 @@ using Utils;
 // Console.WriteLine(HighLevel);
 
 
-TrafficControl controlStop = new TrafficControl(TraficLight.Red);
-TrafficControl controlSlowDown = new TrafficControl(TraficLight.Yellow);
-TrafficControl controlGo = new TrafficControl(TraficLight.Green);
+// TrafficControl controlStop = new TrafficControl(TraficLight.Red);
+// TrafficControl controlSlowDown = new TrafficControl(TraficLight.Yellow);
+// TrafficControl controlGo = new TrafficControl(TraficLight.Green);
 
-controlStop.ShowLightAction();
-controlSlowDown.ShowLightAction();
-controlGo.ShowLightAction();
+// controlStop.ShowLightAction();
+// controlSlowDown.ShowLightAction();
+// controlGo.ShowLightAction();
 
-Meeting WhatDayMeeting = new Meeting();
+// Meeting WhatDayMeeting = new Meeting();
 
-WhatDayMeeting.DayOfTheWeek = Weekdays.Saturday; 
+// WhatDayMeeting.DayOfTheWeek = Weekdays.Saturday; 
 
-WhatDayMeeting.PrintMeetingDay();
+// WhatDayMeeting.PrintMeetingDay();
+
+
+
+

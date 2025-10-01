@@ -1,6 +1,7 @@
 using System;
 using System.Dynamic;
 using Enums;
+using Microsoft.VisualBasic;
 
 namespace Classes
 {
@@ -326,6 +327,20 @@ namespace Classes
             }
 
         }
+
+
+        // public void removeItem(Product product)
+        // {
+        //     CartItem itemRemove = Items.Find(item => item.Product.Name == product.Name);
+
+        //     if (itemRemove != null)
+        //     {
+                
+        //     }
+        // }
+        
+
+        
         
 
     }
