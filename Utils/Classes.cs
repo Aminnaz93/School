@@ -310,8 +310,19 @@ namespace Classes
             {
                 if (item.Product.Name == product.Name)
                 {
-                    Console.WriteLine
+                    existingItem = item;
+
+                    break;
                 }
+            }
+            if (existingItem != null)
+            {
+                existingItem.Quantity += Quantity;
+                Console.WriteLine("Produkten finns i listan. Ökar kvantitet.");
+            }
+            else
+            {
+                Items.Add(new CartItem(product, Quantity));
             }
 
         }
