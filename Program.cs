@@ -268,8 +268,39 @@ using Utils;
 
 // Console.WriteLine(myMethods());
 
-Nazari n2 = new Nazari("Amin", 19, "Programmer");
+// Nazari n2 = new Nazari("Amin", 19, "Programmer");
 
-n2.age = -3;
+// n2.age = -3;
 
-n2.getTheAge();
+// n2.getTheAge();
+
+
+// List<int> numbers = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+
+// // foreach (int num in numbers)
+// // {
+// //     Console.WriteLine(num);
+// // }
+
+// for (int i = 0; i < numbers.Count; i++)
+// {
+//     Console.WriteLine($"Index {i}: {numbers[i]}");
+// }
+
+
+// int max = Math.Max(1, 49);
+
+// Console.WriteLine(max);
+
+
+Console.Write("Ange ditt namn: ");
+
+string name = Console.ReadLine();
+
+Console.Write("Ange din ålder: ");
+int age = Convert.ToInt32(Console.ReadLine());
+
+
+Console.WriteLine($"Ditt namn är {name} och är {age} år gammal.");
+
