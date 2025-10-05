@@ -335,13 +335,64 @@ namespace Classes
 
         //     if (itemRemove != null)
         //     {
-                
+
         //     }
         // }
-        
 
-        
-        
+
+
+
+
+    }
+
+
+
+
+    public class Nazari
+    {
+        private int _age;
+
+        public string Name { get; set; }
+        public int age
+        {
+            get { return _age; }
+            set
+            {
+                if (value < 0)
+                {
+                    Console.WriteLine("Cannot be negative.");
+                }
+                else
+                {
+                    _age = value;
+                }
+            }
+        }
+
+        public string work { get; set; }
+
+
+        public Nazari(string name, int age, string work)
+        {
+            this.Name = name;
+            this.age = age;
+            this.work = work;
+        }
+
+
+        // public Nazari()
+        // {
+
+        // }
+
+
+        public void getTheAge()
+        {
+            Console.WriteLine($"The age of this guy is {age}");
+        }
+
+
+
 
     }
 

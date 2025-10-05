@@ -157,6 +157,119 @@ using Utils;
 
 // WhatDayMeeting.PrintMeetingDay();
 
+// int a = 5;
+// int b = 10;
+
+// int c = a + b;
+
+// //Svar: 15
+// Console.WriteLine(c);
+
+
+// /*
+// bool = Sant eller falsk 
+// int = heltal
+// char = tecken 
+// float = decimaler
+// */
+
+
+// // List<int> numbers = new List<int>();
+
+// // for (int i = 0; i < numbers.Count; i++)
+// // {
+// //     Console.WriteLine(numbers[i]);
+// // }
 
 
 
+// int i = 3;
+
+// do
+// {
+
+//     Console.WriteLine(i);
+//     i--;
+
+// } while (i > 0);
+
+
+// int x = 100;
+
+
+// Console.WriteLine(x);
+
+// int e = 8;
+// if (e % 2 == 0)
+// {
+//     Console.WriteLine("Even");
+// }
+// else
+// {
+//     Console.WriteLine("Odd");
+// }
+
+
+
+// double a = 10.9;
+
+
+// int x = (int)(a);
+
+
+// Console.WriteLine(x);
+
+
+// int[] numbers = new int[5];
+
+
+// numbers[0] = 3;
+
+// foreach (int i in numbers)
+// {
+//     Console.WriteLine(i);
+// }
+
+// Console.WriteLine();
+
+// for (int i = 0; i < numbers.Length; i++)
+// {
+//     Console.WriteLine(numbers[i]);
+// }
+
+
+
+// int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+
+// for (int i = 0; i < numbers.Length; i++)
+// {
+
+
+//     if (numbers[i] == 5)
+//     {
+//         Console.WriteLine("Hoppa över 5");
+//         continue;
+//     }
+//     Console.WriteLine(numbers[i]);
+// }
+
+
+
+
+// string myMethods()
+// {
+//     return "Hello method";
+// }
+
+
+
+
+
+// Console.WriteLine(myMethods());
+
+Nazari n2 = new Nazari("Amin", 19, "Programmer");
+
+n2.age = -3;
+
+n2.getTheAge();
