@@ -305,4 +305,9 @@ using Utils;
 // Console.WriteLine($"Ditt namn är {name} och är {age} år gammal.");
 
 
+// double num = 23.4;
+
+// Console.WriteLine(num);
+
+
 
