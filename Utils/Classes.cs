@@ -392,8 +392,74 @@ namespace Classes
         }
 
 
+    }
+
+
+    public class Employees
+    {
+        public string name { get; set; }
+        public double Salary { get; set; }
+
+        public Employees(string name, double Salary)
+        {
+            this.name = name;
+            this.Salary = Salary;
+        }
+
+
+
+        public virtual double CalculateSalary()
+        {
+            return Salary;
+        }
 
 
     }
+
+
+    public class Manager : Employees
+    {
+
+        public double bonus { get; set; }
+
+        public Manager(string name, double Salary, double bonus) : base(name, Salary)
+        {
+            this.bonus = bonus;
+        }
+
+        public override double CalculateSalary()
+        {
+            return Salary + bonus;
+        }
+
+    }
+
+
+    public class developer : Employees
+    {
+
+        public int overTimeHours { get; set; }
+        public double overTimeRate { get; set; }
+
+
+
+        public developer(string name, double Salary, double bonus, int overTimeHours, double overTimeRate) : base(name, Salary)
+        {
+            this.overTimeHours = overTimeHours;
+            this.overTimeRate = overTimeRate;
+        }
+
+
+        public override double CalculateSalary()
+        {
+            return Salary + (overTimeHours * overTimeRate);
+        }
+
+
+
+    }
+
+
+
 
 }
