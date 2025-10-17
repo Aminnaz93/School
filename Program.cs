@@ -310,35 +310,38 @@ using Utils;
 // Console.WriteLine(num);
 
 
-var staff = new List<Employees>
-{
-    new Employees("Alex", 15220),
-    new Manager("Amin", 80000, 50000),
-    new developer("Anna", 35000,40000,5,5.4)
-};
+// var staff = new List<Employees>
+// {
+//     new Employees("Alex", 15220),
+//     new Manager("Amin", 80000, 50000),
+//     new developer("Anna", 35000,40000,5,5.4)
+// };
 
-Employees employees = new Employees("Alex", 15220);
-Manager manager = new Manager("Amin", 80000, 50000);
-developer developer = new developer("Anna", 35000, 40000, 5, 5.4);
+// Employees employees = new Employees("Alex", 15220);
+// Manager manager = new Manager("Amin", 80000, 50000);
+// developer developer = new developer("Anna", 35000, 40000, 5, 5.4);
 
-foreach (var i in staff)
-{
-    Console.WriteLine($"{i.name} total salary is: {i.CalculateSalary():0.00} kr");
-}
+// foreach (var i in staff)
+// {
+//     Console.WriteLine($"{i.name} total salary is: {i.CalculateSalary():0.00} kr");
+// }
 
 
-Console.WriteLine();
+// Console.WriteLine();
 
-double salary = employees.CalculateSalary();
+// double salary = employees.CalculateSalary();
 
-Console.WriteLine(salary);
+// Console.WriteLine(salary);
 
-double managerSalary = manager.CalculateSalary();
+// double managerSalary = manager.CalculateSalary();
 
-Console.WriteLine(managerSalary);
+// Console.WriteLine(managerSalary);
 
-double developerSalary = developer.CalculateSalary();
+// double developerSalary = developer.CalculateSalary();
 
-Console.WriteLine(developerSalary);
+// Console.WriteLine(developerSalary);
+
+
+
 
 
